@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+
+    /* Oculta el carrusel en pantallas menores a 576px */
+    #carouselExample {
+        display: none;
+    }
+   
+}
+
+
