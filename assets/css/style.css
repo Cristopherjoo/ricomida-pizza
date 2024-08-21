@@ -1,10 +1,33 @@
-@media (max-width: 576px) {
-
-    /* Oculta el carrusel en pantallas menores a 576px */
-    #carouselExample {
-        display: none;
-    }
-   
+.separadorMin{
+    display: none;
+    border: none;
+    border-top: 3px solid black; 
+    margin: 20px 0; 
 }
 
+.separadorMax{
+    border: none;
+    border-top: 3px solid black; 
+    margin: 20px 0; 
+}
+.separadorEver{
+    border: none;
+    border-top: 3px solid black; 
+    margin: 20px 0; 
+}
+
+@media (max-width: 576px) {   
+    #carouselExample {
+        display: none;
+    }   
+   }
+
+@media (max-width: 768px) {
+    .separadorMin {
+        display: block;
+    }
+    .separadorMax{
+        display: none;
+    }
+}
 
